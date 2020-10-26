@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamen, škare, papir</title>
+</head>
+
+<body onload="loadText()">
+    <div id="game">
+        <div class="pad">
+            <div class="pad" id="info-round"></div><br>
+            <div class="pad" id="info-win"></div><br>
+            <div class="pad">
+                <a> <button id="button-1" value="1" onclick="startRound(this)"></button>
+                </a><br>
+                <button id="button-2" value="2" onclick="startRound(this)"></button><br>
+                <button id="button-3" value="3" onclick="startRound(this)"></button><br>
+            </div>
+
+            <div class="pad">
+                Rezultat:<br>
+                <div id="info-score"></div>
+            </div>
+            <div class="pad">
+                <button id="button-bot" disabled></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
